@@ -1,32 +1,117 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] height: and width:
-[  ] margin: and padding: 
-[  ] Three Images
+[ yes ] <div> and <span>
+[  yes] height: and width:
+[ yes ] margin: and padding: 
+[  yes] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
 [ no ] Feature 3 - Navbar
 [ no ] Feature 4 - Shaking Animation
-[ no ] Feature 5 - Gradient Background
+[ yes ] Feature 5 - Gradient Background
 [ no ] Feature 6 - Spotify Playlist
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-image: radial-gradient(lavender, black);
+        background-attachment: fixed;
+        width: 58%;
+        margin: auto;
+      }
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
+      .photo {
+        width: 1000px;
+        margin: 20px;
+        border: 40px solid lavender;
+        padding: 40px;
+      }
 
-  </style>
-</head>
-<body>
+      .photo2 {
+        width: 600px;
+        margin: 20px;
+        border: 20px solid lavender;
+        padding: 20px;
+        height: 490px;
+      }
 
- 
+      .photo3 {
+        width: 400px;
+        margin: 20px;
+        border: 20px solid lavender;
+        padding: 20px;
+        height: 600px;
+      }
 
-</body>
+      .first-sentence {
+        color: purple;
+        font-style: bold;
+        background-color: lavender;
+      }
+      #yes {
+        background-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <img
+        class="photo"
+        src="https://cdn.glitch.global/79233731-3fc9-47d1-a481-62f3c8d2e19d/pfp%20show.jpeg?v=1732219302475"
+      />
+    </center>
+
+    <div id="yes">
+      <center><h1>Show Choir!!</h1></center>
+
+      <p>
+        <span class="first-sentence">
+          Come watch Show Choir's performances! We display a show full of
+          singing, dancing and acting using music from our favorite hit musicals
+          around the world!! After LagMas ends, we have to do something, so what
+          do we do? We create a show!! We start off with full ensemble numbers
+          incooperated with small group numbers (and even solos) throughout our
+          hour and a half long show! Watching our show is the best way to show
+          Lag spirit and support our hard work and dedication!!</span
+        >
+        Pls come.
+      </p>
+
+      <center>
+        <img
+          class="photo2"
+          src="https://cdn.glitch.global/79233731-3fc9-47d1-a481-62f3c8d2e19d/SHOWWWW.JPG?v=1732134546357"
+        />
+      </center>
+      <p>
+        <span class="first-sentence"
+          >This is a picture from my small group and I from last year right
+          before our performance!! We had a lot of fun and shared so much of
+          ourselves on that stage! You wish you couldve seen it don't you.</span
+        >
+      </p>
+
+      <center>
+        <img
+          class="photo3"
+          src="https://cdn.glitch.global/79233731-3fc9-47d1-a481-62f3c8d2e19d/blueshow.JPG?v=1732221164758"
+        />
+      </center>
+
+      <p>
+        <span class="first-sentence">
+          This picture is from one of my solos I had at the beginning of act 2
+          of our show last year!! I was super nervous but disregard
+          that...</span
+        >
+      </p>
+    </div>
+  </body>
 </html>
